@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 76px;
+  background: rgb(9, 192, 248);
+  background: linear-gradient(122deg, #e1a2b8 0%, #9e64af 96%, #9f2bc1 100%);
+  font-family: "Arimo", sans-serif;
+}
+.first-container {
+  background-image: url(./assets/FB_IMG_1519707185994-removebg-preview.png);
+  background-repeat: no-repeat;
+  width: 657px;
+  height: 600px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.about-me > h1 {
+  font-size: 100px;
+}
+.about-me > p {
+  font-size: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cards {
+  background-color: #e6e6e6;
+  color: #9f2bc1;
+  text-align: center;
+  padding: 37px 28px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.cards:hover {
+  color: #e6e6e6;
+  background-color: #9f2bc1;
+}
+
+.cards > h3 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.cards > h5 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 34px;
+  color: #e6e6e6;
+}
+
+.expertise {
+  margin: 50px 0;
+}
+
+button.btn {
+  outline: none;
+  border: none;
+  padding: 10px 28px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-git {
+  background-color: #000000;
+}
+.btn-live {
+  background-color: #03d453;
+}
+
+.project-image {
+  width: 369px;
+  height: 254px;
+  margin-bottom: 30px;
+}
